@@ -1,0 +1,57 @@
+[2026-04-29 12:52:19] Server started, FIFO created: /tmp/lab4_server_fifo
+[2026-04-29 12:52:20] Server ready to accept requests...
+[2026-04-29 12:52:20] Processing request from PID 15186, type=0, data="Hello World"
+[2026-04-29 12:52:20]   -> ECHO: "Hello World"
+[2026-04-29 12:52:20] Response sent to PID 15186
+[2026-04-29 12:52:20] All writers closed, reopening FIFO...
+[2026-04-29 12:52:20] Processing request from PID 15188, type=1, data="hello world"
+[2026-04-29 12:52:20]   -> UPPER: "HELLO WORLD"
+[2026-04-29 12:52:20] Response sent to PID 15188
+[2026-04-29 12:52:20] All writers closed, reopening FIFO...
+[2026-04-29 12:52:20] Processing request from PID 15190, type=2, data="HELLO WORLD"
+[2026-04-29 12:52:20]   -> LOWER: "hello world"
+[2026-04-29 12:52:20] Response sent to PID 15190
+[2026-04-29 12:52:20] All writers closed, reopening FIFO...
+[2026-04-29 12:52:20] Processing request from PID 15192, type=3, data="Hello"
+[2026-04-29 12:52:20]   -> LENGTH: Length: 5
+[2026-04-29 12:52:20] Response sent to PID 15192
+[2026-04-29 12:52:20] All writers closed, reopening FIFO...
+[2026-04-29 12:52:20] Processing request from PID 15194, type=4, data="Hello"
+[2026-04-29 12:52:20]   -> REVERSE: "olleH"
+[2026-04-29 12:52:20] Response sent to PID 15194
+[2026-04-29 12:52:20] All writers closed, reopening FIFO...
+[2026-04-29 12:52:20] Processing request from PID 15199, type=0, data="Client 1 request"
+[2026-04-29 12:52:20]   -> ECHO: "Client 1 request"
+[2026-04-29 12:52:20] Response sent to PID 15199
+[2026-04-29 12:52:20] Processing request from PID 15200, type=1, data="Client 2 request"
+[2026-04-29 12:52:20]   -> UPPER: "CLIENT 2 REQUEST"
+[2026-04-29 12:52:20] Response sent to PID 15200
+[2026-04-29 12:52:20] Processing request from PID 15201, type=4, data="Client 3 request"
+[2026-04-29 12:52:20]   -> REVERSE: "tseuqer 3 tneilC"
+[2026-04-29 12:52:20] Response sent to PID 15201
+[2026-04-29 12:52:20] Processing request from PID 15202, type=3, data="Client 4 request"
+[2026-04-29 12:52:20]   -> LENGTH: Length: 16
+[2026-04-29 12:52:20] Response sent to PID 15202
+[2026-04-29 12:52:20] All writers closed, reopening FIFO...
+[2026-04-29 12:52:20] Server shutting down...
+[2026-04-29 12:52:20] Server stopped.
+[2026-04-29 12:52:28] Server started, FIFO created: /tmp/lab4_server_fifo
+[2026-04-29 12:53:01] Server ready to accept requests...
+[2026-04-29 12:53:01] Processing request from PID 15326, type=1, data=""hello world""
+[2026-04-29 12:53:01]   -> UPPER: ""HELLO WORLD""
+[2026-04-29 12:53:01] Response sent to PID 15326
+[2026-04-29 12:53:01] All writers closed, reopening FIFO...
+[2026-04-29 12:53:52] Server shutting down...
+[2026-04-29 12:53:52] Server stopped.
+[2026-05-06 00:19:15] Server started, FIFO created: /tmp/lab4_server_fifo
+[2026-05-06 00:21:02] Server ready to accept requests...
+[2026-05-06 00:21:02] Processing request from PID 300788, type=1, data=""hello world""
+[2026-05-06 00:21:02]   -> UPPER: ""HELLO WORLD""
+[2026-05-06 00:21:02] Response sent to PID 300788
+[2026-05-06 00:21:02] All writers closed, reopening FIFO...
+[2026-05-06 00:21:19] Processing request from PID 300788, type=3, data=""abcdef""
+[2026-05-06 00:21:19]   -> LENGTH: Length: 8
+[2026-05-06 00:21:19] Response sent to PID 300788
+[2026-05-06 00:21:19] All writers closed, reopening FIFO...
+[2026-05-06 00:23:10] Server shutting down...
+[2026-05-06 00:23:10] Server stopped.

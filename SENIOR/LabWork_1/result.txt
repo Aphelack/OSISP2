@@ -1,0 +1,16 @@
+Заголовок найден. Содержимое:
+     1	#!/bin/bash
+     2	echo "Hello, World!"
+
+Заголовок найден. Содержимое:
+     1	#!/bin/bash
+     2	
+     3	for i in 1 2 3; do
+     4	    echo "$i"
+     5	done
+
+Заголовок найден. Содержимое:
+     1	#!/bin/bash
+     2	
+     3	echo "Hello, World!"
+
